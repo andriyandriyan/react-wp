@@ -19,6 +19,10 @@ export default class PostDetail extends Component {
 		});
 	}
 
+	createMarkup(html) {
+		return { __html: html };
+	}
+
 	render() {
 		const { title, content } = this.state;
 		return (
@@ -35,7 +39,8 @@ export default class PostDetail extends Component {
 				<div id="primary" className="content-area">
 					<div id="content" className="site-content" role="main">
 						<article id="post-190" className="post-190 post type-post status-publish format-standard hentry category-ionic tag-firebase tag-ionic tag-login tag-register libretto-long-form">
-							<div className="entry-content">{content}</div>
+							<div className="entry-content"
+								dangerouslySetInnerHTML={{__html: content}} />
 							<footer className="entry-meta">
 								<span className="cat-links">Posted in <a href="https://andriyandriyan.com/category/ionic" rel="category tag">Ionic</a></span><span className="tags-links">Tagged <a href="https://andriyandriyan.com/tag/firebase" rel="tag">Firebase</a>, <a href="https://andriyandriyan.com/tag/ionic" rel="tag">Ionic</a>, <a href="https://andriyandriyan.com/tag/login" rel="tag">Login</a>, <a href="https://andriyandriyan.com/tag/register" rel="tag">Register</a></span>
 							</footer>
