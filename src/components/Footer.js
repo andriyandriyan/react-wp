@@ -116,7 +116,7 @@ class Footer extends Component {
 					<aside id="text-3" className="widget widget_text">
 						<h2 className="widget-title">About Author</h2>
 						<div className="textwidget">
-							<p><img className="wp-image-12 aligncenter" src="http://andriyandriyan.com/wp-content/uploads/2017/12/25006672_462741230788510_6677528939495161856_n-300x300.jpg" alt="" width="126" height="126" /></p>
+							<p><img className="wp-image-12 aligncenter" src="https://blog.andriyandriyan.com/wp-content/uploads/2018/10/25006672_462741230788510_6677528939495161856_n-150x150.jpg" alt="" width="126" height="126" /></p>
 							<p>Muslim, Penyuka Kucing, Web dan Mobile Hybrid Developer</p>
 						</div>
 					</aside>
