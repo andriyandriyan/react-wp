@@ -1,4 +1,4 @@
-const DOMAIN = 'https://andriyandriyan.com/';
+const DOMAIN = 'https://blog.andriyandriyan.com/';
 
 const config = {
 	SITE_NAME: 'Blognya Andriy',
