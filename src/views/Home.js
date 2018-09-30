@@ -11,6 +11,7 @@ export default class Home extends Component {
 	}
 
 	componentDidMount() {
+		document.title = config.SITE_NAME + ' - ' + config.SITE_QUOTE;
 		http.get('posts').then(posts => {
 			this.setState({ posts });
 		});
